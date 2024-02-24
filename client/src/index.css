@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content{
+  height: 100vh;
+  
+}
+.navbar{
+  background-color: #E2808A !important;
+
+}
+.register-page{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: #c6d8dd;
+
+}
+/* //transection page */
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px rgb(233, 165, 165);
+  
+}
+.border-box{
+  /* border:  2px solid white; */
+  padding: 50px;
+  box-shadow: 0 14px 28px rgba(238, 132, 132, 0.8), 0 10px 10px rgba(238, 132, 132, 0.80);
+  background-color: #E2808A;
+  margin-top: 50px;
+}
+.btn{
+  margin-left: 60px;
+  margin-top: 30px;
+  background-color: #5BB0BA;
+  padding: 5px 20px;
+
+}
+.btn:hover{
+  box-shadow: 4px 4px 8px #F6C8CC;
+  color: red;
+  opacity: 8;
+  background-color: #5BB0BA;
+}
+
+
+/* antd icons */
+
+
+.switch-icons{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+.anticon svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon{
+  color: #E2808A;
+}
+.inactive-icon{
+  color: gray;
+}
